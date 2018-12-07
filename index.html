@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+
+<head>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+<div id="map">
+</div>
+
+<select id="dropdown" onchange="changeNUTS(this.value)">
+  <option value="NUTS0">Countries (NUTS0)</option>
+  <option value="NUTS2_adpt">Adapted NUTS2 Regions</option>
+  <option value="Metro">Metropolitan Regions</option>
+</select>
+
+<!--libraries-->
+<script src="static/lib/js/leaflet.js"></script>
+<link rel="stylesheet" href="static/lib/css/leaflet.css">
+<script src="static/lib/js/d3.min.js"></script>
+<script src="static/lib/js/topojson.min.js"></script>
+
+<!--scripts-->
+<script src="static/js/map.js"></script>
+
+</html>

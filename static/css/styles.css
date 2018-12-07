@@ -1,0 +1,28 @@
+#map {
+    height: 1024px;
+    width: 1500px;
+ }
+
+.defaultStyle {
+  fill: #3388ff;
+  stroke : #3388ff;
+  stroke-width: 1;
+  fill-opacity: 0.3;
+}
+
+.defaultStyle:hover {
+  fill: red;
+  stroke : red;
+}
+
+.metroStyle {
+  fill: yellow;
+  stroke : #3388ff;
+  stroke-width: 1;
+  fill-opacity: 0.3;
+}
+
+.metroStyle:hover {
+  fill: red;
+  stroke : red;
+}
